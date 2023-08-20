@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "4453b7a60a2489a6f13042a59345a82f9a371a0c7edb0b496d21eec22db8f5b6"
+build_start_time: [1689859445, 578869000]
+build_end_time: [1689859453, 605742000]
+inputs:
+  "/Users/wahib/MY_Repositories/flutter/ui_dairy/ui_dairy/macos/Flutter/GeneratedPluginRegistrant.swift": [1689859434, 671634770]
+  "/Users/wahib/MY_Repositories/flutter/ui_dairy/ui_dairy/macos/Runner/AppDelegate.swift": [1677878429, 286744319]
+  "/Users/wahib/MY_Repositories/flutter/ui_dairy/ui_dairy/macos/Runner/MainFlutterWindow.swift": [1683801760, 380056980]
