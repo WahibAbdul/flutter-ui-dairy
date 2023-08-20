@@ -1,16 +1,14 @@
-# ui_dairy
+<p>These templates are designed to streamline the visual and interactive aspects of various applications, making them more engaging and user-friendly. By providing ready-made design solutions, the project simplifies the process of creating appealing interfaces while maintaining a strong emphasis on user-centered design principles.</p>
 
-A new Flutter project.
+<p><b>Coffee Shop</b></p>
+<p>
+  <img src="https://github.com/WahibAbdul/flutter-ui-dairy/blob/main/screenshots/coffee_shop_1.png?raw=true" width="230" height="500"/>
+  <img src="https://github.com/WahibAbdul/flutter-ui-dairy/blob/main/screenshots/coffee_shop_2.png?raw=true" width="230" height="500"/>
+</p>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p><b>Sushi Restaurant</b></p>
+<p>
+  <img src="https://github.com/WahibAbdul/flutter-ui-dairy/blob/main/screenshots/sushi_1.png?raw=true" width="230" height="500"/>
+  <img src="https://github.com/WahibAbdul/flutter-ui-dairy/blob/main/screenshots/sushi_2.png?raw=true" width="230" height="500"/>
+  <img src="https://github.com/WahibAbdul/flutter-ui-dairy/blob/main/screenshots/sushi_3.png?raw=true" width="230" height="500"/>
+</p>
