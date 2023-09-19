@@ -12,7 +12,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final projects = [
     Menu("Sushi Restaurant", Routes.sushiRestaurant),
-    Menu("Coffee App", Routes.coffeeApp),
+    Menu("Coffee Shop", Routes.coffeeApp),
+    Menu("Coffee Shop Plain", Routes.coffeeShopPlainApp),
   ];
 
   final background = Colors.blueGrey;

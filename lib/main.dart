@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:ui_dairy/home_page.dart';
 import 'package:ui_dairy/projects/coffee_shop/coffee_home_page.dart';
+import 'package:ui_dairy/projects/coffee_shop_plain/csp_intro_page.dart';
+import 'package:ui_dairy/projects/coffee_shop_plain/models/csp_shop_model.dart';
 import 'package:ui_dairy/projects/sushi_restaurant/sr_intro_page.dart';
 
 void main() {
@@ -21,7 +24,19 @@ class MyApp extends StatelessWidget {
       routes: {
         Routes.sushiRestaurant: (context) => const SRIntroPage(),
         Routes.coffeeApp: (context) => const CoffeeHomePage(),
+        Routes.coffeeShopPlainApp: (context) => ChangeNotifierProvider(
+              create: (context) => CSPShop(),
+              builder: (context, child) => _getMaterialApp(const CSPIntroPage()),
+            ),
       },
+    );
+  }
+
+  _getMaterialApp(Widget home) {
+    return MaterialApp(
+      theme: ThemeData(useMaterial3: true),
+      debugShowCheckedModeBanner: false,
+      home: home,
     );
   }
 }
@@ -30,4 +45,5 @@ abstract class Routes {
   static const sushiRestaurant = "/sushiRestaurant";
   static const coffeeApp = "/coffeeApp";
   static const groceryShopApp = "/groceryShopApp";
+  static const coffeeShopPlainApp = "/coffeeShopPlainApp";
 }
